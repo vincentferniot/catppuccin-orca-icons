@@ -8,6 +8,10 @@
   "description": "Soothing pastel file and folder icons, in the four Catppuccin flavors.",
   "license": "MIT",
   "repository": "https://github.com/vincentferniot/catppuccin-orca-icons",
+  "cover": {
+    "path": "assets/cover.webp",
+    "alt": "A diagonal mosaic of Catppuccin file icons, from the light Latte flavor to the dark Mocha flavor."
+  },
   "engines": {
     "orca": ">=1.4.246"
   },

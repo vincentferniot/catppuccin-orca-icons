@@ -1,5 +1,7 @@
 # Catppuccin Icons for Orca
 
+![Catppuccin file icons](assets/cover.webp)
+
 Soothing pastel file and folder icons for [Orca](https://github.com/stablyai/orca), in the four
 Catppuccin flavors: Latte, Frappé, Macchiato and Mocha.
 
@@ -62,4 +64,5 @@ Orca's directory picks up the newest `vX.Y.Z` tag within about an hour (the repo
 
 ## License
 
-MIT, see [LICENSE](LICENSE). Icons by [Catppuccin](https://github.com/catppuccin).
+MIT, see [LICENSE](LICENSE). Icons and cover image by [Catppuccin](https://github.com/catppuccin)
+(from catppuccin/vscode-icons).
