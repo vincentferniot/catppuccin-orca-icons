@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "id": "catppuccin-icons",
   "name": "Catppuccin Icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "execution": "data",
   "description": "Soothing pastel file and folder icons, in the four Catppuccin flavors.",
   "license": "MIT",
