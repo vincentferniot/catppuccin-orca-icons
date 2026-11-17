@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
   "manifestVersion": 2,
   "id": "catppuccin-icons",
   "name": "Catppuccin Icons",
@@ -6,15 +7,32 @@
   "execution": "data",
   "description": "Soothing pastel file and folder icons, in the four Catppuccin flavors.",
   "license": "MIT",
+  "repository": "https://github.com/vincentferniot/catppuccin-orca-icons",
   "engines": {
     "orca": ">=1.4.246"
   },
   "contributes": {
     "iconThemes": [
-      { "id": "catppuccin-latte", "title": "Catppuccin Latte", "path": "themes/latte.json" },
-      { "id": "catppuccin-frappe", "title": "Catppuccin Frappé", "path": "themes/frappe.json" },
-      { "id": "catppuccin-macchiato", "title": "Catppuccin Macchiato", "path": "themes/macchiato.json" },
-      { "id": "catppuccin-mocha", "title": "Catppuccin Mocha", "path": "themes/mocha.json" }
+      {
+        "id": "catppuccin-latte",
+        "title": "Catppuccin Latte",
+        "path": "themes/latte.json"
+      },
+      {
+        "id": "catppuccin-frappe",
+        "title": "Catppuccin Frappé",
+        "path": "themes/frappe.json"
+      },
+      {
+        "id": "catppuccin-macchiato",
+        "title": "Catppuccin Macchiato",
+        "path": "themes/macchiato.json"
+      },
+      {
+        "id": "catppuccin-mocha",
+        "title": "Catppuccin Mocha",
+        "path": "themes/mocha.json"
+      }
     ]
   }
 }

@@ -13,7 +13,7 @@ mappings into Orca's format.
 Find it in Orca's plugin directory, or from a terminal:
 
 ```sh
-orca plugin install <owner>/catppuccin-orca-icons
+orca plugin install vincentferniot/catppuccin-orca-icons
 ```
 
 Then pick a flavor in Orca's settings, under the file icon theme.
@@ -58,7 +58,7 @@ icons, bump that commit and rebuild.
 2. Tag that commit and push the tag: `git tag -a v0.2.0 -m v0.2.0 && git push origin v0.2.0`.
 
 Orca's directory picks up the newest `vX.Y.Z` tag within about an hour (the repository carries the
-`orca-plugin` topic). Status: `https://orca.dev/plugins/<owner>/catppuccin-orca-icons`.
+`orca-plugin` topic). Status: `https://orca.dev/plugins/vincentferniot/catppuccin-orca-icons`.
 
 ## License
 
