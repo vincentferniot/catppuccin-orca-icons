@@ -1,0 +1,12 @@
+{
+  "name": "catppuccin-orca-icons",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "validate": "orca plugin validate . --json && orca plugin inspect . --json"
+  }
+}

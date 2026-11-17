@@ -1,0 +1,20 @@
+{
+  "manifestVersion": 2,
+  "id": "catppuccin-icons",
+  "name": "Catppuccin Icons",
+  "version": "0.1.0",
+  "execution": "data",
+  "description": "Soothing pastel file and folder icons, in the four Catppuccin flavors.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "iconThemes": [
+      { "id": "catppuccin-latte", "title": "Catppuccin Latte", "path": "themes/latte.json" },
+      { "id": "catppuccin-frappe", "title": "Catppuccin Frappé", "path": "themes/frappe.json" },
+      { "id": "catppuccin-macchiato", "title": "Catppuccin Macchiato", "path": "themes/macchiato.json" },
+      { "id": "catppuccin-mocha", "title": "Catppuccin Mocha", "path": "themes/mocha.json" }
+    ]
+  }
+}
