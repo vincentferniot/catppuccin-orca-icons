@@ -3,9 +3,9 @@
   "manifestVersion": 2,
   "id": "catppuccin-icons",
   "name": "Catppuccin Icons",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "execution": "data",
-  "description": "Soothing pastel file and folder icons, in the four Catppuccin flavors.",
+  "description": "Soothing pastel file and folder icons, in Catppuccin Latte (light) and Mocha (dark).",
   "license": "MIT",
   "repository": "https://github.com/vincentferniot/catppuccin-orca-icons",
   "cover": {
@@ -21,16 +21,6 @@
         "id": "catppuccin-latte",
         "title": "Catppuccin Latte",
         "path": "themes/latte.json"
-      },
-      {
-        "id": "catppuccin-frappe",
-        "title": "Catppuccin Frappé",
-        "path": "themes/frappe.json"
-      },
-      {
-        "id": "catppuccin-macchiato",
-        "title": "Catppuccin Macchiato",
-        "path": "themes/macchiato.json"
       },
       {
         "id": "catppuccin-mocha",

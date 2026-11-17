@@ -2,8 +2,8 @@
 
 ![Catppuccin file icons](assets/cover.webp)
 
-Soothing pastel file and folder icons for [Orca](https://github.com/stablyai/orca), in the four
-Catppuccin flavors: Latte, Frappé, Macchiato and Mocha.
+Soothing pastel file and folder icons for [Orca](https://github.com/stablyai/orca), in Catppuccin
+Latte (light) and Mocha (dark).
 
 This is an unofficial port, not maintained by the Catppuccin team. The icons come from
 [catppuccin/vscode-icons](https://github.com/catppuccin/vscode-icons), and the approach follows
@@ -28,8 +28,10 @@ so `scripts/selection.ts` keeps the ~500 most common. Anything else falls back t
 or folder icon. To add one, drop another entry there and rebuild; the build fails if you go over
 the limit or name something upstream does not have.
 
-The monochrome variants from zed-icons are not included: with them the plugin would go over
-Orca's 2,000-file limit. They could ship as a second plugin.
+Only Latte and Mocha ship, like Orca's own Catppuccin theme. Each flavor needs its own copy of
+every SVG, since only the colors change: with all four flavors (1,340 files) Orca's plugin
+directory held the plugin for a size review. Frappé, Macchiato and the monochrome variants from
+zed-icons could ship as separate plugins.
 
 ## How Orca picks an icon
 

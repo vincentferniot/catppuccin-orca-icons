@@ -39,7 +39,9 @@ async function fetchUpstream(): Promise<string> {
   return dir
 }
 
-export const FLAVORS = ['latte', 'frappe', 'macchiato', 'mocha'] as const
+// Only Latte (light) and Mocha (dark), like Orca's own Catppuccin theme: each flavor ships its own
+// copy of every SVG, and four flavors (1,340 files) held the plugin for review in Orca's directory.
+export const FLAVORS = ['latte', 'mocha'] as const
 
 // Orca's limits (shared/plugins/artifacts/plugin-icon-theme-artifact.js).
 const MAX_MAPPINGS = 512
